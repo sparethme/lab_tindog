@@ -1,0 +1,198 @@
+/* Section colors */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff; }
+
+.white-section {
+  background-color: #fff; }
+
+.altcolored-section {
+  background-color: #ef8172; }
+
+.bg-header-1 {
+  background-color: #fa8f70; }
+
+.bg-header-2 {
+  background-color: #f2786f; }
+
+.bg-header-3 {
+  background-color: #f65d5d; }
+
+:root {
+  --gradient: linear-gradient (
+    45deg,
+    #845ec2,
+    #f9f871,
+
+  ); }
+
+.bg-g-1 {
+  background: -moz-linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+  background: -webkit-linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+  background: linear-gradient(145deg, #f65d5d 0%, #fdb07d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f65d5d",endColorstr="#fdb07d",GradientType=1); }
+
+.bg-g-2 {
+  background: -moz-linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+  background: -webkit-linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+  background: linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d",endColorstr="#f65d5d",GradientType=1); }
+
+.bg-g-3 {
+  background: linear-gradient(to bottom right, #fd297b, #ff655b); }
+
+.bg-g-4 {
+  background: linear-gradient(to bottom right, #ff4c68, #fdb07d); }
+
+.bg-g-5 {
+  background: linear-gradient(to bottom right, #fd297b, #fdb07d); }
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  text-align: center;
+  background-image: var(--gradient); }
+
+p {
+  color: #8f8f8f; }
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding-top: 2rem; }
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700; }
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%; }
+
+/* Navigation Bar */
+.navbar-toggler {
+  border: none; }
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none; }
+
+.navbar {
+  padding: 0 0 4.8rem; }
+  .navbar .navbar-brand {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700; }
+  .navbar .nav-link {
+    font-size: 1.3rem; }
+  .navbar .nav-item {
+    padding: 0 18px; }
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0; }
+
+/* Title Section */
+#title {
+  color: #fff;
+  text-align: left; }
+
+#title .container-fluid {
+  padding: 3% 15% 15%; }
+
+/* Title Image */
+.tindog-gif {
+  width: 100%;
+  transform: rotate(25deg);
+  /* Equal to rotateZ(25deg) */
+  background-color: transparent;
+  position: absolute;
+  left: 12%; }
+
+/* Features Section */
+#features {
+  position: relative; }
+
+.feature-title {
+  font-size: 1.5rem; }
+
+.feature-box {
+  padding: 4.5%; }
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem; }
+
+.icon:hover {
+  color: #ff4c68; }
+
+/* Testimonial Section */
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5; }
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px; }
+
+#press {
+  padding-bottom: 3%; }
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px; }
+
+/* Pricing Section */
+#pricing {
+  padding: 100px; }
+
+img {
+  margin-top: -75px; }
+
+.card:hover {
+  box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+  transition: all 0.4s; }
+
+.fa {
+  color: #fff; }
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5; }
+
+.pricing-column {
+  padding: 3% 2%; }
+
+.buttons {
+  background-color: #8f8f8f; }
+
+.card-header {
+  color: white; }
+
+.price-logo {
+  border-radius: 100%;
+  max-width: 40%; }
+
+/* CTA Section */
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px; }
+
+#footer a {
+  text-decoration: none; }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center; }
+  .title-image {
+    position: static;
+    transform: rotate(0); }
+  .tindog-gif {
+    position: static;
+    transform: rotate(0);
+    /* rotate back to 0 - so image will be straight up - its default position */ } }
