@@ -58,20 +58,15 @@ p {
 /* Headings */
 .big-heading {
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 900;
-  color: white;
-  padding-top: 2rem; }
+  color: white; }
 
 .section-heading {
-  font-size: 3rem;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 700; }
-
-/* Containers */
-.container-fluid {
-  padding: 7% 15%; }
 
 /* Navigation Bar */
 .navbar-toggler {
@@ -82,13 +77,13 @@ p {
   box-shadow: none; }
 
 .navbar {
-  padding: 0 0 4.8rem; }
+  padding: 0 0; }
   .navbar .navbar-brand {
     font-family: "proxima-nova", sans-serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 700; }
   .navbar .nav-link {
-    font-size: 1.3rem; }
+    font-size: 16px; }
   .navbar .nav-item {
     padding: 0 18px; }
 
@@ -101,16 +96,12 @@ p {
   color: #fff;
   text-align: left; }
 
-#title .container-fluid {
-  padding: 3% 15% 15%; }
-
 /* Title Image */
 .tindog-gif {
-  width: 100%;
+  width: 80%;
   transform: rotate(25deg);
   /* Equal to rotateZ(25deg) */
   background-color: transparent;
-  position: absolute;
   left: 12%; }
 
 /* Features Section */
@@ -118,25 +109,24 @@ p {
   position: relative; }
 
 .feature-title {
-  font-size: 1.5rem; }
+  font-size: 24px; }
 
 .feature-box {
   padding: 4.5%; }
 
 .icon {
-  color: #ef8172;
-  margin-bottom: 1rem; }
+  color: #ef8172; }
 
 .icon:hover {
   color: #ff4c68; }
 
 /* Testimonial Section */
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 24px;
   line-height: 1.5; }
 
 .testimonial-image {
-  width: 10%;
+  width: 100px;
   border-radius: 100%;
   margin: 20px; }
 
@@ -144,29 +134,16 @@ p {
   padding-bottom: 3%; }
 
 .press-logo {
-  width: 15%;
+  width: 20%;
   margin: 20px 20px 50px; }
 
 /* Pricing Section */
-#pricing {
-  padding: 100px; }
-
-img {
-  margin-top: -75px; }
-
-.card:hover {
+#pricing .card:hover {
   box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
   transition: all 0.4s; }
 
-.fa {
+#pricing .fa {
   color: #fff; }
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5; }
-
-.pricing-column {
-  padding: 3% 2%; }
 
 .buttons {
   background-color: #8f8f8f; }
@@ -196,3 +173,21 @@ img {
     position: static;
     transform: rotate(0);
     /* rotate back to 0 - so image will be straight up - its default position */ } }
+
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: 16px; }
+  .big-heading {
+    font-size: 40px; } }
+
+@media (min-width: 992px) {
+  .big-heading {
+    font-size: 40px; }
+  .section-heading {
+    font-size: 40px; } }
+
+@media (min-width: 1200px) {
+  .big-heading {
+    font-size: 80px; }
+  #title {
+    text-align: center; } }

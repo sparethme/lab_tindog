@@ -31,7 +31,8 @@
 </head>
 
 <body data-target="#main-nav">
-  <section class="bg-g-5" id="title">
+
+  <section class="bg-g-5 pt-md-5 pb-5" id="title">
     <div class="container-fluid">
 
       <!-- Nav Bar -->
@@ -64,7 +65,7 @@
       <!-- Title -->
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 align-self-center">
           <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button">
             <i class="fab fa-apple"></i> Download
@@ -75,7 +76,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img class="tindog-gif mt-5" src="img/Tinder-Mockup-1-2sec.gif" alt="iphone-mockup" />
+          <img class="tindog-gif img-fluid mt-5" src="img/Tinder-Mockup-1-2sec.gif" alt="iphone-mockup" />
         </div>
       </div>
     </div>
@@ -83,7 +84,7 @@
 
   <!-- Features -->
 
-  <section class="white-section" id="features">
+  <section class="white-section py-5" id="features">
     <div class="container-fluid">
       <div class="row">
         <div class="feature-box col-lg-4">
@@ -113,7 +114,7 @@
     <div class="container">
       <!-- <h2 class="text-center">Testimonials</h2> -->
       <div class="row text-center">
-        <div class="col">
+        <div class="col-auto">
           <div class="slider pt-5">
 
             <!-- first Testimonial-->
@@ -146,7 +147,7 @@
               </blockquote>
             </div>
 
-            <!-- third Testimonial -->
+            <!-- third Testimonial
             <div>
               <div class="d-flex justify-content-center">
                 <img class="testimonial-image justify-content-center" src="img/dog-img.jpg" alt="dog-profile" />
@@ -157,14 +158,15 @@
                 </p>
                 <footer class="blockquote-footer text-white"><em>Meghan Williams, Nebraska</em></footer>
               </blockquote>
-            </div>
+            </div> -->
+
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Press -->
+  <!-- Press Section -->
 
   <section class="altcolored-section" id="press">
     <img class="press-logo" src="img/techcrunch.png" alt="tc-logo" />
@@ -175,24 +177,28 @@
 
   <!-- Pricing -->
 
-  <section class="white-section" id="pricing">
-    <h2 class="section-heading">Every Dog Has It's Plan</h2>
-    <p>Simple and affordable price plans for you and your dog.</p>
+  <section class="white-section py-5" id="pricing">
 
-    <div class="container">
-      <div class="row">
+
+
+    <div class="container-fluid">
+      <h2 class="section-heading">Every Dog Has It's Plan</h2>
+      <p>Simple and affordable price plans for you and your dog.</p>
+      <div class="row justify-content-center">
+
+        <!-- Deck of cards -->
 
 
         <!-- Price Card #1  -->
         <!-- d-flex align-items stretch used to make each card the same height. Alternate is card-deck? -->
-        <div class="pricing-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="col-auto">
           <div class="card mt-5">
             <div class="card-header bg-header-1">
-              <!-- <img class="price-logo" src="find tinder img?" alt="chihuahua" /> -->
-              <h3>Basic</h3>
+              <!-- <img class="price-logo" src="find tinder img?" /> -->
+              <h3 class="card-title">Basic</h3>
             </div>
             <div class="card-body">
-              <h2 class="price-text">Free</h2>
+              <h2 class="card-text">Free</h2>
               <p><i class="fa fa-check mr-3"></i>5 Matches Per Day</p>
               <p><i class="fa fa-check mr-3"></i>10 Messages Per Day</p>
               <p><i class="fa fa-check mr-3"></i>Unlimited App Usage</p>
@@ -207,14 +213,14 @@
         </div>
 
         <!-- Price Card #2 -->
-        <div class="pricing-column col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+        <div class="col-auto">
           <div class="card mt-5">
             <div class="card-header bg-header-2">
-              <!-- <img class="price-logo" src="find tinder img?" alt="labrador" /> -->
-              <h3>Plus</h3>
+              <!-- <img class="price-logo" src="find tinder img?" /> -->
+              <h3 class="card-title">Plus</h3>
             </div>
             <div class="card-body">
-              <h2 class="price-text">$49 / mo</h2>
+              <h2 class="card-text">$49 / mo</h2>
               <p><i class="fa fa-check mr-3"></i>Unlimited Matches</p>
               <p><i class="fa fa-check mr-3"></i>Unlimited Messages</p>
               <p><i class="fa fa-check mr-3"></i>Unlimited App Usage</p>
@@ -229,14 +235,14 @@
         </div>
 
         <!-- Price Card #3 -->
-        <div class="pricing-column col-lg-4 d-flex align-items-stretch">
+        <div class="col-auto">
           <div class="card mt-5">
             <div class="card-header bg-header-3">
-              <!-- <img class="price-logo" src="find tinder image?" alt="mastiff" /> -->
-              <h3>Gold</h3>
+              <!-- <img class="price-logo" src="find tinder image?"/> -->
+              <h3 class="card-text">Gold</h3>
             </div>
             <div class="card-body">
-              <h2 class="price-text">$99 / mo</h2>
+              <h2 class="card-text">$99 / mo</h2>
               <p><i class="fa fa-check mr-3"></i>Priority Listing</p>
               <p><i class="fa fa-check mr-3"></i>Unlimited Matches</p>
               <p><i class="fa fa-check mr-3"></i>Unlimited Messages</p>
@@ -249,6 +255,7 @@
 
             </div>
           </div>
+
         </div>
       </div>
 
@@ -258,10 +265,10 @@
 
   <!-- Call to Action -->
 
-  <section class="colored-section" id="cta">
+  <section class="colored-section py-5" id="cta">
     <div class="container-fluid">
-      <h3 class="h1">
-        Don't screw the pooch. Find the True Love of Your Dog's Life Today.
+      <h3 class="section-heading">
+        Don't screw the pooch on this one. Find true love for your dog today.
       </h3>
       <button class="download-button btn btn-lg btn-dark" type="button">
         <i class="fab fa-apple"></i> Download
@@ -274,7 +281,7 @@
 
   <!-- Footer -->
 
-  <footer class="white-section" id="footer">
+  <footer class="white-section py-5" id="footer">
     <div class="container-fluid">
 
       <!-- Row #1 -->
