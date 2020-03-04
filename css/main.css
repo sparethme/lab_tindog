@@ -126,6 +126,7 @@ p {
   line-height: 1.5; }
 
 .testimonial-image {
+  width: 75px;
   border-radius: 100%;
   margin: 20px; }
 
